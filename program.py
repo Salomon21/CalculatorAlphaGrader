@@ -11,7 +11,7 @@ lines = []
 for line in fileinput.input():
     lines.append(line)
     
-suma = lines[0] + lines[1]
+suma = int(lines[0]) + int(lines[1])
 
 print(suma)
     
